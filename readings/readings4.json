@@ -1,0 +1,20 @@
+{
+    "channel": {
+    "id": 2275230,
+    "name": "Light intensity receiver",
+    "latitude": "86.41995019305097",
+    "longitude": "24.568365777433954",
+    "field1": "intensity",
+    "field2": "bulb status",
+    "created_at": "2023-09-20T03:35:55Z",
+    "updated_at": "2023-09-20T20:11:29Z",
+    "last_entry_id": 11
+    },
+    "feeds": [
+    {
+    "created_at": "2023-09-22T17:24:32Z",
+    "entry_id": 10,
+    "field1": "1"
+    }
+    ]
+    }
