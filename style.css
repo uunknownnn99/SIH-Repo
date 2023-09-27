@@ -52,7 +52,10 @@ body {
 	overflow-x: hidden;
 }
 
-
+.rightside{
+	position: "absolute";
+	right: 0%;
+}
 
 
 
