@@ -22,7 +22,7 @@ function loadMapScenario() {
     let sensorRead1 = arr.feeds[0].field1;
     if (sensorRead1 == "0") {
       Microsoft.Maps.loadModule('Microsoft.Maps.GeoJson', function() {
-        Microsoft.Maps.GeoJson.readFromUrl(`locations/locations${i}a.json`,
+        Microsoft.Maps.GeoJson.readFromUrl(`Locations/locations${i}a.json`,
           function(shapes) {
             map.entities.push(shapes,);
           });
@@ -30,7 +30,7 @@ function loadMapScenario() {
     }
     else if (sensorRead1 == "1") {
       Microsoft.Maps.loadModule('Microsoft.Maps.GeoJson', function() {
-        Microsoft.Maps.GeoJson.readFromUrl(`locations/locations${i}c.json`,
+        Microsoft.Maps.GeoJson.readFromUrl(`Locations/locations${i}c.json`,
           function(shapes) {
             map.entities.push(shapes,);
           });
@@ -38,7 +38,7 @@ function loadMapScenario() {
     }
     else {
       Microsoft.Maps.loadModule('Microsoft.Maps.GeoJson', function() {
-        Microsoft.Maps.GeoJson.readFromUrl(`locations/locations${i}b.json`,
+        Microsoft.Maps.GeoJson.readFromUrl(`Locations/locations${i}b.json`,
           function(shapes) {
             map.entities.push(shapes,);
           });
