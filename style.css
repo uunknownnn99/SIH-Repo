@@ -53,7 +53,7 @@ body {
 }
 
 .rightside{
-	position: "absolute";
+	position: "fixed";
 	left: 0%;
 }
 
